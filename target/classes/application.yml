@@ -1,0 +1,11 @@
+server:
+  port: 6688
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/academic_research?useUnicode=true&serverTimezone=UTC&characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: root
+mybatis:
+  mapper-locations: /mapper/*.xml
+  type-aliases-package: com.data

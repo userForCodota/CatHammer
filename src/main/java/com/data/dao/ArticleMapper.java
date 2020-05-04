@@ -3,7 +3,9 @@ package com.data.dao;
 import com.data.pojo.Article;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
+import org.springframework.ui.Model;
 
 import java.util.List;
 
@@ -18,4 +20,7 @@ public interface ArticleMapper {
 
     @Select("SELECT thunder FROM academic_research.articles")
     List<String> getAllThunder();
+
+    @Select("SELECT * FROM academic_research.articles LIMIT #{index},#{limit}")
+    List<Article> getArticlesByPage(@Param("index") int index, @Param("limit") int limit);
 }

@@ -21,7 +21,12 @@ public class ArticleTests {
         }
     }
 
-
-
+    @Test
+    public void getArticlesByPageTests() {
+        List<Article> articlesByPage = articleService.getArticlesByPage(0, 10);
+        for (int i = 0; i < articlesByPage.size(); i++) {
+            System.out.println(articlesByPage.get(i).getThunder());
+        }
+    }
 
 }

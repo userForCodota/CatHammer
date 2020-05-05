@@ -14,6 +14,11 @@ public class CommonController {
 
     @RequestMapping("/list")
     public String goList() {
-        return "list";//概览页
+        return "List_AcademicResearch";//概览页
+    }
+
+    @RequestMapping("/movie")
+    public String goMovieList() {
+        return "List_Movie";//概览页
     }
 }

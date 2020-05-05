@@ -2,39 +2,39 @@
 <html lang="en" xmlns:v-bind="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
-    <title>概览页</title>
+    <title>电影天堂</title>
+    <!--custom css-->
+    <link rel="stylesheet" href="../static/css/movieList.css">
     <!--framework JavaScript-->
     <script type="text/javascript" src="../static/framework/Jquery/jquery-3.4.1.js"></script>
     <script type="text/javascript" src="../static/framework/vue/vue.js"></script>
     <!--custom js-->
 </head>
 <body>
-<div>
-    <input id="action" type="button" value="获取数据">
-    <script type="text/javascript">
-        $("#action").click(function () {
-            $.ajax({
-                url: '/articles/0/10',
-                type: 'post',
-                data: {},
-                dataType: 'json',
-                success: function (data) {
-                    articleList.$data.list = data;
-                }
-            });
+<input id="action" type="button" value="获取数据">
+<script type="text/javascript">
+    $("#action").click(function () {
+        $.ajax({
+            url: '/articles/0/10',
+            type: 'post',
+            data: {},
+            dataType: 'json',
+            success: function (data) {
+                articleList.$data.list = data;
+            }
         });
-    </script>
-</div>
+    });
+</script>
 <div id="listContainer">
     <ul>
         <li v-for="map in list">
-            <div>
-                <img v-bind:src="map.picBase64" alt="">
+            <div class="movieDiv">
+                <a v-bind:href="map.thunder"><img v-bind:src="map.picBase64" v-bind:alt="map.title"/></a>
             </div>
         </li>
     </ul>
 </div>
 <!--当new Vue()这个动作写在了单独的js文件的后，因为html自上而下的执行顺序，执行到js文件的时候Vue已经去new对象了，但是此时html的元素还没进来，所以报错找不到对应id的元素，解决方法：把new Vue()的js文件放在html的最后面。-->
-<script type="text/javascript" src="../static/js/vueObjects.js"></script>
+<script type="text/javascript" src="../static/js/VueObject_Movie.js"></script>
 </body>
 </html>

@@ -13,6 +13,7 @@ import lombok.experimental.Accessors;
 @NoArgsConstructor
 @Accessors(chain = true)
 public class AcademicResearch {
+    private int id;
     private String domain;//网站首页
     private int minPageNumber;//期望爬取的最小页码
     private int maxPageNumber;//期望爬取的最大页码

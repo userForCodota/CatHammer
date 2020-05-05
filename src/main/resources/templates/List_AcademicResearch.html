@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v-bind="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>概览页</title>
+    <!--custom css-->
+    <link rel="stylesheet" href="../static/css/AcademicResearchList.css">
+    <!--framework JavaScript-->
+    <script type="text/javascript" src="../static/framework/Jquery/jquery-3.4.1.js"></script>
+    <script type="text/javascript" src="../static/framework/vue/vue.js"></script>
+    <!--custom js-->
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+<!--分页按钮-->
+<br>
+<div class="row">
+    <div class="col-lg-6">
+        <div class="input-group">
+            <input id="urlValue" type="text" class="form-control" placeholder="urlExample:/articles/{index}/{limit}"
+                   value="/articles/0/10">
+            <span class="input-group-btn">
+                <button id="getAcademicResearch" class="btn btn-default" type="button">Get!</button>
+                <button id="showTitle" class="btn btn-default" type="button">title</button>
+            </span>
+        </div>
+    </div>
+</div><!-- /.row -->
+<script type="text/javascript">
+    $("#getAcademicResearch").click(function () {
+        $.ajax({
+            url: $("#urlValue").val(),
+            type: 'post',
+            data: {},
+            dataType: 'json',
+            success: function (data) {
+                articleList.$data.list = data;
+            }
+        });
+    });
+    $("#showTitle").click(function () {
+        $(".titleHidden").toggle();
+    });
+</script>
+<br>
+<!--列表容器-->
+<div id="listContainer" class="row">
+    <ul>
+        <li v-for="map in list" style="list-style: none">
+            <div class="col-xs-6 col-md-3">
+                <div class="thumbnail"><img v-bind:src="map.picBase64" v-bind:title="map.title"></div>
+                <div class="caption">
+                    <p class="titleHidden" style="display: none;">
+                        {{(map.title).substring(0,12)}}</p>
+                    <p>
+                        <a v-bind:href="map.thunder" class="btn btn-primary" role="button">thunder</a>
+                    </p>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
+<!--当new Vue()这个动作写在了单独的js文件的后，因为html自上而下的执行顺序，执行到js文件的时候Vue已经去new对象了，但是此时html的元素还没进来，所以报错找不到对应id的元素，解决方法：把new Vue()的js文件放在html的最后面。-->
+<script type="text/javascript" src="../static/js/VueObject_AcademicResearch.js"></script>
+</body>
+</html>

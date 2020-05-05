@@ -69,7 +69,8 @@ public class Base64Utils {
             }
             inputStream.close();
         } catch (IOException e) {
-            e.printStackTrace();
+//            e.printStackTrace();
+            System.out.println("\t[目标图片无法加载]\t" + e.getMessage());
         }
         //对字节数组进行base64编码
         BASE64Encoder encoder = new BASE64Encoder();

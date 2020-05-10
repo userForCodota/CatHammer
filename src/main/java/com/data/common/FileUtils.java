@@ -15,9 +15,10 @@ import java.util.Properties;
 public class FileUtils {
 
     /**
-     * 加载外部的properties文件，并转换成map
+     * 加载项目外的本地properties文件，并转换成map
      *
-     * @return
+     * @param filePath 属性文件的地址
+     * @return 结果集map
      */
     public static Map<String, String> loadExternalPropertoesFile(String filePath) {
         Map<String, String> resultMap = new HashMap<>();
@@ -47,6 +48,5 @@ public class FileUtils {
         } finally {
             return resultMap;
         }
-
     }
 }

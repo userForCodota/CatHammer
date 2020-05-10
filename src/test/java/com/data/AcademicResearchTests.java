@@ -30,5 +30,16 @@ public class AcademicResearchTests {
         academicResearchService.addArticleFromAcademicResearch(arh);
     }
 
+    @Test
+    public void addArticleFromAcademicResearchCategoryShort() {
+        Map<String, String> props = FileUtils.loadExternalPropertoesFile("E:\\桌面\\外部加载属性AcademicResearch.properties");
+        AcademicResearch arh = new AcademicResearch();
+        arh.setDomain(props.get("domain"));//因为爬虫期间下级访问请求可能需要拼接域名(其a标签是相对路径)
+        arh.setNumLeft(props.get("numLeft"));
+        arh.setNumRight(props.get("numRight"));
+        arh.setMinPageNumber(Integer.parseInt(props.get("minPageNumber")));
+        arh.setMaxPageNumber(Integer.parseInt(props.get("maxPageNumber")));
+        academicResearchService.addArticleFromAcademicResearchCategoryShort(arh);
+    }
 
 }

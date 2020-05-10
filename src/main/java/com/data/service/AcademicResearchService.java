@@ -6,4 +6,6 @@ import org.springframework.stereotype.Service;
 @Service
 public interface AcademicResearchService {
     void addArticleFromAcademicResearch(AcademicResearch arh);
+
+    void addArticleFromAcademicResearchCategoryShort(AcademicResearch arh);
 }

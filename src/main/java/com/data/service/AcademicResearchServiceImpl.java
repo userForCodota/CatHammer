@@ -169,5 +169,9 @@ public class AcademicResearchServiceImpl implements AcademicResearchService {
         }
     }
 
+    //####################################################################################################################
+    @Override
+    public void addArticleFromAcademicResearchCategoryShort(AcademicResearch arh) {
 
+    }
 }

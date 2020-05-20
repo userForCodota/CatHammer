@@ -11,7 +11,7 @@ import java.util.regex.Pattern;
  */
 public class studyFileTests {
 
-    private static String path = "F:\\dataSynchronizationCluster\\filesHugeLocal\\Java\\学习视频汇总\\消息队列之RabbitMQ\\[高清 1080P] 一小时彻底搞懂RabbitMQ";
+    private static String path = "F:\\dataSynchronizationCluster\\filesHugeLocal\\Java\\学习视频汇总\\Docker\\[高清 1080P] 【狂神说Java】Docker最新超详细版教程通俗易懂";
 
 
     /**
@@ -51,7 +51,7 @@ public class studyFileTests {
         File file = new File(path);
         File[] files = file.listFiles();
         for (int i = 0; i < files.length; i++) {
-            System.out.println(files[i].getName().replace(".flv",""));
+            System.out.println(files[i].getName().replace(".flv", ""));
         }
 /*        for (int i = 0; i < files.length; i++) {
             String name = files[i].getName();

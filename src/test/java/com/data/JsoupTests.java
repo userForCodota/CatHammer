@@ -19,7 +19,7 @@ public class JsoupTests {
      */
     @Test
     public void getPage() throws IOException {
-        String url = "https://dytt8.net/html/gndy/dyzz/list_23_3.html";
+        String url = "https://www.zhipin.com/gongsi/1e988843578a18b03n1439s~.html?ka=job-comintroduce";
         Connection conn = Jsoup.connect(url).timeout(100000);
         conn = JsoupUtils.setRequestHeader(conn);
         Document document = conn.get();

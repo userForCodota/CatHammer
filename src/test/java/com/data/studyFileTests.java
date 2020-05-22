@@ -3,15 +3,13 @@ package com.data;
 import org.junit.jupiter.api.Test;
 
 import java.io.File;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 /**
  * 关于学习文件的测试类，比如改名、移动文件等,
  */
 public class studyFileTests {
 
-    private static String path = "F:\\dataSynchronizationCluster\\filesHugeLocal\\Java\\学习视频汇总\\Docker\\[高清 1080P] 【狂神说Java】Docker最新超详细版教程通俗易懂";
+    private static String path = "F:\\dataSynchronizationCluster\\filesHugeLocal\\Java\\学习视频汇总\\消息队列之RabbitMQ\\RabbitMq经典课程";
 
 
     /**

@@ -19,10 +19,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/data/ArticleTests.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/data/studyFileTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="196">
+              <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -31,13 +31,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/data/studyFileTests.java">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="636">
-              <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="308">
+              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -76,7 +73,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/data/service/AcademicResearchImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/data/common/JsoupUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/data/pojo/Article.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/com/data/config/WebMvcConfigurerPlus.java" />
         <option value="$PROJECT_DIR$/src/main/resources/static/js/JsIndex.js" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/list.js" />
@@ -90,7 +86,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/data/service/ArticleService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/data/service/ArticleServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/data/controller/ArticleController.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/data/JsoupTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/data/dao/ArticleMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/list.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/css/list.css" />
@@ -114,7 +109,10 @@
         <option value="$PROJECT_DIR$/src/test/java/com/data/AcademicResearchTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/data/service/AcademicResearchService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/data/service/AcademicResearchServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/data/JsoupTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/data/controller/TestController.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/data/studyFileTests.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -145,6 +143,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -156,6 +155,36 @@
               <item name="CatHammer" type="b2602c69:ProjectViewProjectNode" />
               <item name="CatHammer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CatHammer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CatHammer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CatHammer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CatHammer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CatHammer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CatHammer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CatHammer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CatHammer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CatHammer" type="b2602c69:ProjectViewProjectNode" />
@@ -192,7 +221,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -323,9 +351,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.studyFileTests.fileNameTests" />
+        <item itemvalue="JUnit.JsoupTests.getPage" />
         <item itemvalue="JUnit.studyFileTests.getFileNameList" />
         <item itemvalue="JUnit.MovieTests.getMoviesFromInternet" />
-        <item itemvalue="JUnit.JsoupTests.getPage" />
         <item itemvalue="JUnit.ArticleTests.getArticlesByPageTests" />
       </list>
     </recent_temporary>
@@ -376,16 +404,13 @@
       <workItem from="1589767898064" duration="599000" />
       <workItem from="1589770894269" duration="32000" />
       <workItem from="1589976508550" duration="752000" />
+      <workItem from="1590015645895" duration="182000" />
+      <workItem from="1590044654408" duration="230000" />
+      <workItem from="1590130499647" duration="242000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="studyFileTests_fileNameTests - 2020.05.05 at 20h 47m 55s.xml">
-      <configuration name="studyFileTests.fileNameTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="studyFileTests_fileNameTests - 2020.05.08 at 15h 40m 32s.xml">
-      <configuration name="studyFileTests.fileNameTests" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="studyFileTests_fileNameTests - 2020.05.08 at 15h 43m 22s.xml">
       <configuration name="studyFileTests.fileNameTests" configurationId="JUnit" />
     </history-entry>
@@ -410,14 +435,21 @@
     <history-entry file="studyFileTests_fileNameTests - 2020.05.20 at 20h 20m 06s.xml">
       <configuration name="studyFileTests.fileNameTests" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="JsoupTests_getPage - 2020.05.21 at 07h 01m 26s.xml">
+      <configuration name="JsoupTests.getPage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="studyFileTests_fileNameTests - 2020.05.22 at 14h 57m 02s.xml">
+      <configuration name="studyFileTests.fileNameTests" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105679000" />
+    <option name="totallyTimeSpent" value="106333000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49584487" visible="true" weight="0.20522387" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49584487" visible="true" weight="0.22855228" />
       <window_info id="Structure" order="1" sideWeight="0.50345784" side_tool="true" weight="0.20735608" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -427,7 +459,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.16359697" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.562942" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" weight="0.5813449" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -520,7 +552,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/data/studyFileTests.java</url>
-          <line>33</line>
+          <line>31</line>
           <properties />
           <option name="timeStamp" value="38" />
         </line-breakpoint>
@@ -572,7 +604,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/data/service/JsouperServiceImpl.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -585,13 +616,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/framework/Jquery/jquery-3.4.1.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/framework/layui-v2.5.4/layui/css/layui.css">
       <provider selected="true" editor-type-id="text-editor" />
@@ -779,16 +803,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/data/controller/ArticleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/data/controller/CommonController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="397">
@@ -893,36 +907,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/data/CatHammerApplicationTests.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/data/controller/ArticleController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/data/JsoupTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="140">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/data/MovieTests.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/data/controller/TestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="168">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/data/AcademicResearchTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="812">
+        <state relative-caret-position="625">
           <caret line="36" column="55" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -932,8 +936,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/data/ArticleTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
+        <state relative-caret-position="140">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/data/CatHammerApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/data/JsoupTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/data/MovieTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -942,11 +973,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/data/studyFileTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="636">
-          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+        <state relative-caret-position="196">
+          <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
         </state>
       </provider>
     </entry>

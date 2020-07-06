@@ -13,7 +13,7 @@ public class MovieTests {
     /**
      * 从www.dytt8.net电影天堂爬取信息
      */
-    @Test
+//    @Test
     public void getMoviesFromInternet() {
         String domain = "https://www.dytt8.net/";
         int minPage = 1;

@@ -18,7 +18,7 @@ public class AcademicResearchTests {
     /**
      * 从AcademicResearch网站爬取视频信息，存进article数据库
      */
-    @Test
+//    @Test
     public void addArticleFromAcademicResearch() {
         Map<String, String> props = FileUtils.loadExternalPropertoesFile("E:\\桌面\\外部加载属性AcademicResearch.properties");
         AcademicResearch arh = new AcademicResearch();
@@ -30,7 +30,7 @@ public class AcademicResearchTests {
         academicResearchService.addArticleFromAcademicResearch(arh);
     }
 
-    @Test
+//    @Test
     public void addArticleFromAcademicResearchCategoryShort() {
         Map<String, String> props = FileUtils.loadExternalPropertoesFile("E:\\桌面\\外部加载属性AcademicResearch.properties");
         AcademicResearch arh = new AcademicResearch();

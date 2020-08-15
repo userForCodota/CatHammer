@@ -9,7 +9,7 @@ import java.io.File;
  */
 public class studyFileTests {
 
-    private static String path = "F:\\dataSynchronizationCluster\\filesHugeLocal\\Java\\学习视频汇总\\搭建博客相关\\[高清 720P] NuxtJS视频教程";
+    private static String path = "F:\\dataSynchronizationCluster\\filesHugeLocal\\Java\\学习视频汇总\\easyExcel";
 
 
     /**

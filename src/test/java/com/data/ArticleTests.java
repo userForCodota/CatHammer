@@ -29,4 +29,11 @@ public class ArticleTests {
         }
     }
 
+    @Test
+    public void test33() {
+        Integer a = 1;
+        Integer b = 1;
+        System.out.println(a == b);
+    }
+
 }

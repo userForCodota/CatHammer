@@ -25,6 +25,4 @@ public class JsoupTests {
         Document document = conn.get();
         System.out.println(document);
     }
-
-
 }

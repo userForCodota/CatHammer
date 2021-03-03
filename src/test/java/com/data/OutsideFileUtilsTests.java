@@ -39,5 +39,11 @@ public class OutsideFileUtilsTests {
         tempResult.add(map2);
         System.out.println(JSON.toJSONString(tempResult));
     }
-
+    @Test
+    public void test3() {
+        int a=6;
+        System.out.println(a);
+        System.out.println(a++);
+        System.out.println(a);
+    }
 }

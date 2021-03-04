@@ -42,4 +42,7 @@ public class AcademicResearchTests {
         academicResearchService.addArticleFromAcademicResearchCategoryShort(arh);
     }
 
+
+
+
 }

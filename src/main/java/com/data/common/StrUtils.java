@@ -12,7 +12,7 @@ public class StrUtils {
     public static String encryption(String str) {
         char[] chars = str.toCharArray();
         for (int i = 0; i < chars.length; i++) {
-            chars[i] = (char) (chars[i] ^ 20000);
+            chars[i] = (char) (chars[i] ^ 2000);//固定2000
         }
         return new String(chars);
     }

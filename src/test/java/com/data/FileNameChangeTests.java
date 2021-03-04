@@ -20,18 +20,18 @@ public class FileNameChangeTests {
      */
     @Test
     void encryptionAndDecryption() {
-        boolean isDo = false;
+        boolean isDo = true;
         String dirPath = "I:\\only_mobile_hard_disk_drive\\videos\\学术研究";
         File mabyDir = new File(dirPath);//可能是目录而不是文件
         if (mabyDir.isDirectory()) {
             File[] videoFiles = mabyDir.listFiles();
             for (File videoFile : videoFiles) {
-                String newName = videoFile.getName().replaceAll(" ", "");//去空格去点
-//                String newName = videoFile.getName().replace(".", "").replaceAll(" ", "");//去空格去点
-                String encryption = StrUtils.encryption(newName);
-                String encryption_2 = StrUtils.encryption(encryption);
-                System.out.println(encryption+"=="+encryption_2);
-
+                String newName = videoFile.getName().replaceAll(" ", "");//当前文件名
+                String encryption = StrUtils.encryption(newName);//加密或者解密之后
+                System.out.println(newName + "==" + encryption);
+                if (isDo) {
+                    videoFile.renameTo(new File(videoFile.getParent() + "\\" + encryption));
+                }
             }
         }
     }
